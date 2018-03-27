@@ -1,0 +1,27 @@
+{
+  "name": "ws_history",
+  "version": "1.0.0",
+  "description": "A history API example: ColorServer",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js; open 127.0.0.1:8080",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/portsoc/ws_history.git"
+  },
+  "keywords": [
+    "history",
+    "pushstate",
+    "popstate",
+    "server",
+    "express"
+  ],
+  "author": "Rich Boakes <rjb@boakes.org> (http://boakes.org/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/portsoc/ws_history/issues"
+  },
+  "homepage": "https://github.com/portsoc/ws_history#readme"
+}

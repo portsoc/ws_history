@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<script src="index.js"></script>
+<title>ColorServer</title>
+<link rel="stylesheet" href="/style.css">
+
+
+<input type="button" value="Historize" id=remember></input>
+
+<header id=header>
+  <h1>ColorServer/<span id=headline></span></h1>
+  <p>Edit the background-color using range sliders.</p>
+  <p>Click 'remember' to save a color to your browser history.</p>
+</header>
+
+<div id=colpicker>
+  <div><input list=hex type="range" min="0" max="255" class="slider" id="r"><span>Red</span></div>
+  <div><input list=hex type="range" min="0" max="255" class="slider" id="g"><span>Green</span></div>
+  <div><input list=hex type="range" min="0" max="255" class="slider" id="b"><span>Blue</span></div>
+</div>
+
+<datalist id="hex">
+  <option value="0" label="00">
+  <option value="51" label="33">
+  <option value="102" label="66">
+  <option value="153" label="99">
+  <option value="204" label="CC">
+  <option value="255" label="FF">
+</datalist>
