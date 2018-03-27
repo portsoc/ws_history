@@ -5,8 +5,10 @@ An minimalist example of a Single Page App that uses the [History API](https://h
 ## Install & Run
 
 *   get the code: `git clone https://github.com/portsoc/ws_history.git`
+*   change directory: `cd ws_history`
 *   get dependencies: `npm install`
 *   start server: `npm test`
+*   open browser: `http://localhost:8080`
 
 ## The ColorServer App
 
