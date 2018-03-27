@@ -1,6 +1,12 @@
 # ws_history
 
-An minimalist example of single page applications and the history API
+An minimalist example of a Single Page App that uses the [History API](https://html.spec.whatwg.org/multipage/history.html#history).
+
+## Install & Run
+
+*   get the code: `git clone https://github.com/portsoc/ws_history.git`
+*   get dependencies: `npm install`
+*   start server: `npm test`
 
 ## The ColorServer App
 
