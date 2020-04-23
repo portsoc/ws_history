@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/portsoc/ws_history/issues"
   },
-  "homepage": "https://github.com/portsoc/ws_history#readme"
+  "homepage": "https://github.com/portsoc/ws_history#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
